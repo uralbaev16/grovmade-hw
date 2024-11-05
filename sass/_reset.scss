@@ -1,0 +1,33 @@
+@font-face {
+    src: url("../fonts/Roboto-Light.woff");
+    font-family: roboto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+body {
+    padding-top: 60px;
+}
+.container{
+    max-width: 1472px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+button,input{
+    outline: none;
+}

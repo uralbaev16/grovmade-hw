@@ -1,0 +1,33 @@
+.card{
+    overflow: hidden;
+    margin-top: 80px;
+    &__title{
+        text-align: center;
+        h2{
+            font-size: 34px;
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 23px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: #A0A0A0;
+            margin-bottom: 80px;
+        }
+    }
+    &__wrapper{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+       gap: 30px; 
+    }
+    &__image:hover{
+        transform: scale(1.1);
+        transition: .3s;
+    }
+    &__title{
+        margin-top: 50px;
+        text-align: center;
+    }
+}

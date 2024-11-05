@@ -1,0 +1,57 @@
+.topic{
+    overflow: hidden;
+    &__title{
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    h2{
+        font-size: 43px;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 23px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #A0A0A0;
+        margin-bottom: 26px;
+    }
+    a{
+        font-size: 13px;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 80px;
+    }
+ 
+    &__text{
+        text-align: center;
+        margin-top: 30px;
+        h3{
+            font-size: 27px;
+            font-weight: 400;
+            color: #000;
+        }
+        a{
+            padding: 0 20px;
+            font-size: 13px;
+            font-weight: 400;
+            color: #000;
+            margin-top: 10px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    &__wrapper{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        }
+        &__card {
+            img:hover {
+                transform: scale(1.1);
+                transition: 0.3s;
+        }
+    }
+
+}

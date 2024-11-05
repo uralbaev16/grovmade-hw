@@ -1,0 +1,47 @@
+.smartfon{
+    overflow: hidden;
+    margin-bottom: 100px;
+    &__title{
+        margin-top: 100px;
+        text-align: center;
+        h2{
+            font-size: 33px;
+            font-weight: 400;
+            color: #000;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #A0A0A0;
+            margin-top: 16px;
+            margin-bottom: 43px;
+        }
+    }
+    &__wrapper{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+    &__image {
+        img:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+    }
+    h3{
+        font-size: 13px;
+        font-weight: 500;
+        color: #A0A0A0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #A0A0A0;
+    }
+
+   
+}

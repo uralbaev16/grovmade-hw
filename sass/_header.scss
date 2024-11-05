@@ -1,0 +1,34 @@
+.header{
+    overflow: hidden;
+    height: 70px;
+    padding: 30px ;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+    top: 0;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__collection{
+            display: flex;
+            gap: 24px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #000;
+        }
+        &__item:active{
+            transform: scale(.96);
+            color: brown;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .navbar{
+        &__logo{
+            display: none;
+        }
+    }
+}
